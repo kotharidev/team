@@ -6,6 +6,7 @@
     <style>
         body{
             background-image: url('bg-image');
+            <link rel="stylesheet" href="app.css">
         }
     </style>
     <body style="text-align: center;" width="auto">
