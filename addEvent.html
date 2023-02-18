@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Event Management Page </title>  
+</head> 
+<!-- <head>
+    <title>View Events</title>
+  </head>
+  <body>
+    <div class="container"> 
+    <h1>View Events</h1>
+    <table>
+        <div class="event-card"> 
+      <thead>
+        <tr>
+          <th>Event Name</th>
+          <th>Event Date</th>
+          <th>Events</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>2023-03-01</td>
+            <td>Hip Hop Beginners Class</td>
+            <td><button type="button"> Book </button></td> 
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2023-04-15</td>
+            <td>Art & Craft  Workshop</td>
+            <td><button type="button"> Book </button></td> 
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2023-06-10</td>
+            <td>State Chess Championship</td>
+            <td><button type="button"> Book </button></td> 
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2023-03-01</td>
+            <td>Music Festival</td>
+            <td><button type="button"> Book </button></td> 
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>2023-04-15</td>
+            <td>Book Reading Festival</td>
+            <td><button type="button"> Book </button></td> 
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>2023-06-10</td>
+            <td>Open Mic</td>
+            <td><button type="button"> Book </button></td> 
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <a href="create_event.html">Create New Event</a>
+  </body> -->
+<body>
+    <h2>Add New Event</h2>
+	<form>
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date"><br><br>
+		
+		<label for="name">Event Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+		
+        <label for="category">Event category:</label>
+        <select name="category" id="category">
+        <option value="conference">Conference</option>
+        <option value="workshop">Music</option>
+        <option value="seminar">Seminar</option>
+        <option value="webinar">Dance</option>
+        <option value="meeting">Sports and Games</option>
+        </select>
+        <br><br>
+		
+		<label for="location">Location:</label>
+		<input type="text" id="location" name="location"><br><br>
+		
+		<input type="submit" value="Add Event">
+	</form>
+    <link rel="stylesheet" href="addEvent.css">   
+    <link rel="js" href="addEvent.js">   
+    <link rel="db" href="event.sql">   
+
+</body> 
