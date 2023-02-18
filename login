@@ -9,10 +9,10 @@
         <h2>Event Management Login Page</h2>
 
       <p></p><label for="user name">User Name:</label>       
-         <input type="text" name="fname" id="fname">
+         <input type="text" name="username" id="username">
       </p>
       <p> <label for="password">Password:</label>
-          <input type="text" name="lname" id="lname">
+          <input type="text" name="password" id="password">
       </p>
       <input type="submit" value="login">
       <label>
