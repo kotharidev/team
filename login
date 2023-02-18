@@ -6,26 +6,23 @@
     </head>
     <body style="text-align: center;" width="auto">
     <form action="" method="post">
-        <h2>Log in Page</h2>
+        <h2>Event Management Login Page</h2>
 
-      <p></p><label for="firstname">First Name:</label>       
+      <p></p><label for="user name">User Name:</label>       
          <input type="text" name="fname" id="fname">
       </p>
-      <p> <label for="lastname">Last Name:</label>
+      <p> <label for="password">Password:</label>
           <input type="text" name="lname" id="lname">
       </p>
-      <p> <label for="gender">Gender:</label>
-      <select>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-      </select></p>
-      <p> <label for="email">Email:</label>
-          <input type="text" name="email" id="email">
-      </p>
-      <p> <label for="address">Address:</label>
-          <input type="text" name="address" id="address">
-      </p>
       <input type="submit" value="login">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
     </form>
     </body>
 </html>
